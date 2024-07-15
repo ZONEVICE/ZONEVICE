@@ -1,0 +1,17 @@
+- GitLens
+- Discord Presence
+- Edit csv
+- Error Lens
+- ESLint
+- Excalidraw
+- Git Graph
+- Github Theme
+- Live Server
+- Material Icon Theme
+- Package Json Upgrade
+- Rainbox CSV
+- Vue - Official
+- Windows Default Keybindings
+- es6-string-html
+- SQLite Viewer
+- Thunder Client
