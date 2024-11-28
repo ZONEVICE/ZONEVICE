@@ -4,7 +4,7 @@ Install Tampermonkey.
 // ==UserScript==
 // @name         redmine color issues
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.2.1
 // @description  Working on Redmine 4.2.5.stable
 // @author       ZONEVICE
 // @match        http://localhost:5000/*
@@ -20,7 +20,10 @@ Install Tampermonkey.
                 tr.style.backgroundColor = `rgb(${rgb_color})`;
                 return;
             }
-            if (Array.from(tr.getElementsByClassName('status'))[0].innerHTML.includes(state_name)) tr.style.backgroundColor = `rgb(${rgb_color})`;
+            const ts_target = Array.from(tr.getElementsByClassName('status'))[0];
+            if (ts_target != undefined) {
+                if (ts_target.innerHTML.includes(state_name)) tr.style.backgroundColor = `rgb(${rgb_color})`;
+            }
         }
         for (const tr of trs) {
             // RGB picker: https://htmlcolorcodes.com/color-picker/
