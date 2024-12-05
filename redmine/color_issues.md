@@ -29,6 +29,9 @@ Install Tampermonkey.
             // RGB picker: https://htmlcolorcodes.com/color-picker/
             ChangeColor(tr, 'closed', '102, 255, 51'); // Green.
             ChangeColor(tr, 'Resuelto', '221, 255, 209'); // Light green.
+            // With Dark Reader extension.
+            //ChangeColor(tr, 'closed', '59, 139, 35'); // Green.
+            //ChangeColor(tr, 'Resuelto', '59, 139, 35'); // Light green.
         }
     }
 })();

@@ -5,17 +5,15 @@ Install Tampermonkey.
 // @name         redmine hide closed issues
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  try to take over the world!
+// @description  Working on Redmine 4.2.5.stable
 // @author       ZONEVICE
-// @match        http://192.168.1.121:5002/*
-// @include        http://localhost:5002/*
+// @match        http://localhost:5002/*
+// @include      http://localhost:5002/*
 // @grant        none
 // ==/UserScript==
 
 (function() {
     'use strict';
-
-    // Changes color of closed issues.
 
     const trs = document.getElementsByTagName('tr')
 

@@ -10,7 +10,7 @@ apt update && apt list --upgradable
 
 Permissions
 
-`sudo chmod 000 /usr/local/bin/aptl && sudo chmod +x /usr/local/bin/aptl`
+`sudo chmod 111 /usr/local/bin/aptl`
 
 ---
 
@@ -26,4 +26,4 @@ apt update && apt upgrade -y
 
 Permissions
 
-`sudo chmod 000 /usr/local/bin/aptu && sudo chmod +x /usr/local/bin/aptu`
+`sudo chmod 111 /usr/local/bin/aptu`
