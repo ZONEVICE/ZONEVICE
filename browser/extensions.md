@@ -1,0 +1,5 @@
+- Wappalyzer
+- Dark Reader
+- Return YouTube Dislike
+- AdBlocker for YouTube
+- tampermonkey
