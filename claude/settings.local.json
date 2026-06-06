@@ -1,16 +1,17 @@
 {
   "permissions": {
-    "defaultMode": "dontAsk",
+    "defaultMode": "default",
     "allow": [
       "Read(**)",
       "Write(**)",
       "Edit(**)",
       "Bash(*)",
       "Glob",
-      "Grep"
+      "Grep",
+      "WebFetch(*)"
     ],
     "deny": [
-      "Read(./example-shit/**)"
+      "Read(./fancy-crap/**)"
     ]
   }
 }
