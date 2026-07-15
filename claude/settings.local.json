@@ -1,6 +1,6 @@
 {
   "permissions": {
-    "defaultMode": "bypbypassPermissionsass",
+    "defaultMode": "default",
     "allow": [
       "Read(**)",
       "Write(**)",

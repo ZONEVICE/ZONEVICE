@@ -3,7 +3,7 @@ File name: `aptl`
 Update and list upgradable.
 
 ```bash
-apt update && apt list --upgradable
+sudo apt update && apt list --upgradable
 ```
 
 ---
@@ -13,7 +13,7 @@ File name: `aptu`
 Upgrade packages.
 
 ```bash
-apt update && apt upgrade -y
+sudo apt update && sudo apt upgrade -y
 ```
 
 ---
@@ -49,7 +49,7 @@ set -e
 
 cat > /usr/local/bin/aptl <<'EOF'
 #!/bin/bash
-sudo apt update && apt list --upgradable
+sudo apt update && sudo apt list --upgradable
 EOF
 
 cat > /usr/local/bin/aptu <<'EOF'
