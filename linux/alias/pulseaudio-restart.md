@@ -1,0 +1,3 @@
+```bash
+pulseaudio -k
+```
